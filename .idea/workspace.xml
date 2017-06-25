@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8209c9e3-ee78-44c2-a6c7-43f5e606a6e8" name="Default" comment="" />
+    <list default="true" id="8209c9e3-ee78-44c2-a6c7-43f5e606a6e8" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Stack.java" afterPath="$PROJECT_DIR$/src/Stack.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,24 +15,32 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Stack.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Stack.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Stack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+            <state relative-caret-position="401">
+              <caret line="28" column="38" lean-forward="false" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
+                <element signature="e#168#169#0" expanded="true" />
+                <element signature="e#214#215#0" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
                 <element signature="e#278#279#0" expanded="true" />
                 <element signature="e#310#311#0" expanded="true" />
-                <element signature="e#342#343#0" expanded="true" />
-                <element signature="e#379#380#0" expanded="true" />
+                <element signature="e#352#353#0" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#413#414#0" expanded="true" />
+                <element signature="e#435#436#0" expanded="true" />
+                <element signature="e#478#479#0" expanded="true" />
+                <element signature="e#500#501#0" expanded="true" />
+                <element signature="e#545#546#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StackTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="StackTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/StackTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1594">
@@ -489,25 +499,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StackTest_testIsEmpty - 2017.06.24 at 22h 30m 18s.xml">
+    <history-entry file="StackTest_testIsEmpty - 2017.06.24 at 22h 50m 31s.xml">
       <configuration name="StackTest.testIsEmpty" configurationId="JUnit" />
     </history-entry>
     <history-entry file="StackTest_testPop - 2017.06.24 at 22h 35m 28s.xml">
       <configuration name="StackTest.testPop" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StackTest_testPush - 2017.06.24 at 22h 30m 24s.xml">
-      <configuration name="StackTest.testPush" configurationId="JUnit" />
+    <history-entry file="StackTest_testPop - 2017.06.24 at 22h 50m 52s.xml">
+      <configuration name="StackTest.testPop" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StackTest_testPop - 2017.06.24 at 22h 51m 36s.xml">
+      <configuration name="StackTest.testPop" configurationId="JUnit" />
     </history-entry>
     <history-entry file="StackTest_testPush - 2017.06.24 at 22h 30m 33s.xml">
       <configuration name="StackTest.testPush" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StackTest_testSize - 2017.06.24 at 22h 30m 09s.xml">
+    <history-entry file="StackTest_testPush - 2017.06.24 at 22h 50m 40s.xml">
+      <configuration name="StackTest.testPush" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StackTest_testSize - 2017.06.24 at 22h 50m 26s.xml">
       <configuration name="StackTest.testSize" configurationId="JUnit" />
     </history-entry>
     <history-entry file="StackTest_testTop - 2017.06.24 at 22h 30m 38s.xml">
       <configuration name="StackTest.testTop" configurationId="JUnit" />
     </history-entry>
     <history-entry file="StackTest_testTop - 2017.06.24 at 22h 33m 50s.xml">
+      <configuration name="StackTest.testTop" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StackTest_testTop - 2017.06.24 at 22h 50m 45s.xml">
       <configuration name="StackTest.testTop" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -524,7 +543,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -550,7 +569,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -575,26 +594,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="28" column="38" lean-forward="false" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/StackTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1594">
           <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

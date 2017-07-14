@@ -15,6 +15,7 @@ public class PostfixExpressionTest {
     private PostfixExpression pe6;
     private PostfixExpression pe7;
     private PostfixExpression pe8;
+    private PostfixExpression pe9;
 
     /**
      * Creates PostfixExpression objects for testing.
@@ -29,6 +30,7 @@ public class PostfixExpressionTest {
         this.pe6 = new PostfixExpression("3 a - 20 * 15 +");
         this.pe7 = new PostfixExpression("a b * c - d +");
         this.pe8 = new PostfixExpression("1 2 + -3 -");
+        this.pe9 = new PostfixExpression("1 3 6 2 1 / * + + ");
     }
 
     @Test
